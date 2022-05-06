@@ -26,52 +26,11 @@ namespace ProyectoPTC
             else
             {
                 e.Handled = true;
-                MessageBox.Show("Solo Numeros");
+                MessageBox.Show("Solo se aceptan números enteros");
             }
         }
 
-        public static void textBox2 (KeyPressEventArgs e)
-        {
-            if (Char.IsDigit(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-            else if (Char.IsSeparator(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-            else if (Char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-            else
-            {
-                e.Handled = true;
-                MessageBox.Show("Solo Numeros");
-            }
-        }
-
-        public static void textBox3 (KeyPressEventArgs e)
-        {
-            if (Char.IsDigit(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-            else if (Char.IsSeparator(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-            else if (Char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-            else
-            {
-                e.Handled = true;
-                MessageBox.Show("Solo Numeros");
-            }
-        }
-
+        
         public static void espacio (KeyPressEventArgs e)
         {
             if (Char.IsWhiteSpace(e.KeyChar))

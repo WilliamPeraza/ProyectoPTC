@@ -68,5 +68,12 @@ namespace ProyectoPTC
         {
             Validar.textBox1(e);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 mainpag = new Form4();
+            mainpag.Show();
+        }
     }
 }

@@ -16,5 +16,12 @@ namespace ProyectoPTC
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 paginaprincipal = new Form4();
+            paginaprincipal.Show();
+        }
     }
 }
